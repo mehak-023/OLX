@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    display:flex;
+    padding-left: 200px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.top_bar{
+    padding-left: 22px;
+}
+.main{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.icon{
+    border: 2px solid #002f34;
+    margin-left: -42px;
+    padding: 12px;
+    background-color: #002f34;
+    color: white;
+}
+.Login{
+    color: black;
+    margin-left: 40px;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.Login:hover{
+    cursor: pointer;
+}
+.btn1{
+    padding: 14px;
+    margin-left: 40px; 
+    border-radius: 20px;
+    border-bottom: 5px solid #3a77ff;
+    border-top: 5px solid #23e5db;
+    border-left: 5px solid #ffce32;
+    border-right: 5px solid #3a77ff;
+    font-weight: bold;
+    background-color: white;
+}
+.nav{
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.nav ul li{
+    padding: 6px;
+    display: inline-block;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size :19px;
+    color: #002F34;
+}
+.nav ul li a:hover{
+color: rgb(195, 243, 243);
+}
+.addin{
+margin-right: auto;
+margin-left: auto;
+ width: 50%;
+ margin-top: 10px;
+}
+span .btn2{
+    margin-left: 10px;
+    background-color:#C8F8F6 ;
+    border: none;
+    color: #002F34;
+    padding: 2px 2px;
+}
+.section h2,span{
+    display: inline-block;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-solid fa-bars{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #3a77ff
+}
+.sec{
+margin-left: 200px;
+display: flex;
+margin-right: 80px;
+flex-wrap: wrap;
+
+}
+.sec2{
+    margin-left: 40px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.para{
+    margin-left: 1100px;
+}
+.footer{
+    background-color: #dce8ec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #050505;
+    flex-wrap: wrap;
+} 
+.footer2 h4{
+color: #002F34;
+cursor: pointer;
+}
+.footer2{
+    background-color: #dce8ec;
+    flex-wrap: wrap;
+}
+.footer2 p{
+    color: #002f34a3;
+}
+.footer2 p:hover{
+color: #002F34;
+cursor: pointer;
+}
+input placeholder{
+    padding-left:  50px;
+    float: left;
+}
